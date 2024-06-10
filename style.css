@@ -8,3 +8,8 @@ body{
 }
 
 @import url(reset.css);
+@import url(header.csssss);
+body{
+
+    background-color: #EBECCE;
+}
