@@ -1,0 +1,14 @@
+.cabecalho{
+display: flex;
+justify-content: space-between;
+}
+
+
+.menu-hamburguer{
+
+    width: 24px;
+    height: 24px;
+    background-image: url(../img/a);
+    background-position: center;
+    background-repeat: no-repeat;
+}
