@@ -7,8 +7,15 @@ align-items: center;
 
 .menu-hamburguer{
     width: 24px;
+    display: inline-block;
     height: 24px;
-    background-image: url("../img/AluraBooks/menu.svg");
+    background-image: url("../img/Menu.svg");
     background-position: center;
     background-repeat: no-repeat;
+}
+.menu-lista{
+   display: none; 
+}
+.seletor-menu:checked ~ .menu-lista{   
+    display: block;
 }
