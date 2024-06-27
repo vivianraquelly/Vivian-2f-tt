@@ -2,6 +2,7 @@
 display: flex;
 justify-content: space-between;
 align-items: center;
+background-color: white;
 }
 
 
@@ -18,4 +19,13 @@ align-items: center;
 }
 .seletor-menu:checked ~ .menu-lista{   
     display: block;
+}
+.menu-lista-item, .menu-lista-tiulo{
+    background-color: white;
+    padding: 1em;
+
+}
+
+.menu-lista-tiulo{
+    color: var(--laranja);
 }
