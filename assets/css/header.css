@@ -15,7 +15,10 @@ background-color: white;
     background-repeat: no-repeat;
 }
 .menu-lista{
-   display: none; 
+   display: none;
+   position: absolute;
+   width: 60vw; 
+   text-transform: uppercase;
 }
 .seletor-menu:checked ~ .menu-lista{   
     display: block;
