@@ -23,12 +23,16 @@ background-color: white;
 .seletor-menu:checked ~ .menu-lista{   
     display: block;
 }
-.menu-lista-item, .menu-lista-tiulo{
+.menu-lista-item, .menu-lista-item-titulo{
     background-color: white;
     padding: 1em;
 
 }
 
-.menu-lista-tiulo{
+.menu-lista-item-titulo{
     color: var(--laranja);
+    font-weight: 700;
+}
+.seletor-menu{
+    display:none;
 }
