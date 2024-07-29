@@ -1,7 +1,7 @@
 
 @import url(reset.css);
 @import url(header.css);
-
+@import url(banner.css);
 
 
 body{
@@ -13,5 +13,5 @@ body{
     --branco:#FFFFFF;
     --cor-de-fundo: #EBECCE;
     --laranja: #EB9D00;
-    --azul-degrade: linear-gradient(97.56deg, #002f52 35.49%, #326589 165.37%)
+    --azul-degrade: linear-gradient(97.56deg, #002f52 35.49%, #326589 165.37%);
 }
