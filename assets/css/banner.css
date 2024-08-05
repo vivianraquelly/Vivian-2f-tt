@@ -20,6 +20,8 @@
     padding: 1en;
     width: 100%;
     background: url("../img/Pesquisa.svg") no-repeat;
+    background-position: 1em;
+    text-align: center;
 }
 .banner-pesquisa::placeholder{
     font-family: poppins,sans-serif;
