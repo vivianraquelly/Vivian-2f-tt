@@ -80,7 +80,7 @@
             <div class="swiper-slide"><img src="assets/img/Portugol.png" alt=""></div>
             <div class="swiper-slide"><img src="assets/img/Nodejs.svg" alt=""></div>
         </div>
-        <div class="swiper-button-pagination"></div>
+        <div class="swiper-pagination"></div>
         <div class="swiper-button-prev"></div>
         <div class="swiper-button-next"></div>
         <div class="swiper-scrollbar"></div>
@@ -93,8 +93,11 @@
     const swiper = new Swiper('.swiper', {
         spaceBetween: 10,
         slidesPerView: 3,
-  },
-    ),
+        pagination: {
+            el: ".swiper-pagination",
+            type: "bullets",
+        }
+  })
 </script>
 
 </body>
