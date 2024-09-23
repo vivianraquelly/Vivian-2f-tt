@@ -27,3 +27,21 @@
     width: 90%;
     background-color: var(--azulS);
 }
+
+.contato-email::placeholder{
+    font-family: "poppins", sans-serif;
+    color: var(--azul);
+    background: url(../img/AluraBooks/Email.svg) no-repeat;
+    padding-left: 2em;
+    background-position: 95%;
+
+}
+
+hr{
+   margin: 0;
+}
+.rodape{
+    background-color: var(--branco);
+    padding: 1em;
+}
+
